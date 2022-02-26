@@ -10,6 +10,10 @@ view: poc_ota_ml {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Customer" in Explore.
+  dimension: locationname {
+    map_layer_name: countries
+    sql: ${TABLE}.locationname ;;
+  }
 
   dimension: customer {
     type: string
@@ -36,7 +40,7 @@ view: poc_ota_ml {
     sql: ${TABLE}.Latitude ;;
   }
 
-  dimension: locationname {
+  dimension: location {
     type: string
     sql: ${TABLE}.Locationname ;;
   }
@@ -130,8 +134,5 @@ view: poc_ota_ml {
     sql: ${TABLE}.WindowStartTime ;;
   }
 
-  measure: count {
-    type: count
-    drill_fields: [displayname, propertyname, locationname]
-  }
+
 }
