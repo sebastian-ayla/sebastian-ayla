@@ -114,6 +114,8 @@
     show_totals: true
     show_row_totals: true
     truncate_header: false
+    series_labels:
+      poc_ota_ml.numberofmessages: Number of Messages in Window
     series_cell_visualizations:
       poc_ota_ml.value:
         is_active: false
@@ -196,6 +198,8 @@
     show_totals: true
     show_row_totals: true
     truncate_header: false
+    series_labels:
+      poc_ota_ml.numberofmessages: Number of Messages in Window
     series_text_format:
       poc_ota_ml.value:
         bg_color: "#CCC54B"
@@ -275,6 +279,8 @@
     show_totals: true
     show_row_totals: true
     truncate_header: false
+    series_labels:
+      poc_ota_ml.numberofmessages: Number of Messages in Window
     series_text_format:
       poc_ota_ml.value:
         bold: true
