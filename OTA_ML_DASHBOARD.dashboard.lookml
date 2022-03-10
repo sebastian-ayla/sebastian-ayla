@@ -487,7 +487,7 @@
         steps: 5
     y_axes: [{label: '', orientation: left, series: [{axisId: average_of_value_2,
             id: average_of_value_2, name: Average of Value}], showLabels: true, showValues: true,
-        minValue: 100000, unpinAxis: false, tickDensity: default, type: linear}]
+        minValue: 100, unpinAxis: false, tickDensity: default, type: linear}]
     font_size: '12'
     label_value_format: "#"
     series_types:
@@ -605,7 +605,7 @@
         steps: 5
     y_axes: [{label: '', orientation: left, series: [{axisId: average_of_value_2,
             id: average_of_value_2, name: Average of Value}], showLabels: true, showValues: true,
-        minValue: 100000, unpinAxis: false, tickDensity: default, type: linear}]
+        minValue: 100, unpinAxis: false, tickDensity: default, type: linear}]
     font_size: '12'
     label_value_format: "#.0"
     series_types: {}
