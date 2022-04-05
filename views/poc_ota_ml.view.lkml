@@ -15,6 +15,12 @@ view: poc_ota_ml {
     sql: ${TABLE}.locationname ;;
   }
 
+  dimension: mainanomalydata {
+    type: string
+    sql: ${TABLE}.Mainanomalydata ;;
+  }
+
+
   dimension: customer {
     type: string
     sql: ${TABLE}.Customer ;;
